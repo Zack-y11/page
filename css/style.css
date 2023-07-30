@@ -54,7 +54,7 @@ a {
     gap: 20px;
 }
 .para, img {
-    width: 30em;
+    width: 25em;
     height: 300px;
 }
 .para > button {

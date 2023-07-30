@@ -15,7 +15,7 @@ body {
 .header, .hero {
     background-color: #1F2937;
     color: white;
-    padding: 0 10%; 
+    padding: 0 5%; 
 }
 .hero {
     padding-bottom: 25px;
@@ -54,7 +54,7 @@ a {
     gap: 20px;
 }
 .para, img {
-    width: 25em;
+    width: 30em;
     height: 300px;
 }
 .para > button {

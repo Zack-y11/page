@@ -76,7 +76,7 @@ h3 {
 }
 
 .card {
-    width: 8%;
+    width: 200px;
     height: 120px;
     padding: 10px;
     display: flex;

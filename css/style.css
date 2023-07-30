@@ -22,6 +22,9 @@ body {
     padding-top: 25px;
     font-size: 18px;
 }
+.hero > img {
+    margin-top: 40px;
+}
 .para > h1 {
     font-size: 48px;
     font-weight: 900;
@@ -50,7 +53,7 @@ a {
     gap: 20px;
 }
 .para, img {
-    width: 45%;
+    width: 30em;
     height: 300px;
 }
 .para > button {
@@ -136,4 +139,75 @@ button {
     color:#f9faf8;
     text-align: center;
     font-size: 18px;
+}
+
+.hover-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+  background-color: #b32400;
+}
+.logo {
+    animation-name: miAnimacion;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes miAnimacion {
+    from {color: rgb(30, 219, 23);}
+    to {color: rgb(255, 0, 0);}
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 750px) {
+    .header > ul {
+        flex-wrap: wrap;  
+    }
+    .header {
+        font-size: 20;
+        font-weight: 500;
+    }
+    .logo {
+        padding-right: 30px;
+    }
+    .para {
+        margin-bottom: 40px;
+    }
+    .para > h1 {
+    font-size: 32px;
+    font-weight: 700;
+    }
+    a {
+    font-size: 16px;
+    }
+    h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    }
+    .nota {
+        font-size: 28px;
+    }
+    .contacto {
+        font-size: 16px;
+    }
+    .footer {
+        font-size: 16px;
+    }
+    .hero {
+        width: auto;
+        height: auto;
+    }
+    .hero > img {
+        height: 150px;
+        width: auto;
+    }    
 }
